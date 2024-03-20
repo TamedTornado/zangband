@@ -19,3 +19,8 @@
     'script.c',
     'l-monst.c', 'l-object.c', 'l-player.c', 'l-random.c', 'l-ui.c', 'l-misc.c', 'l-spell.c'
   )
+
+angband_rc = files('angband.rc')
+
+angband_res = custom_target('resource_file', output: 'angband.res', command: ['rc', '/fo@OUTPUT@', angband_rc ])
+

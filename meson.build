@@ -18,4 +18,4 @@ subdir('src/lua')
 # subdir('src/tk')
 
 subdir('src')
-executable('zangband', src_files, tolua_files, c_args: ['-USET_UID','-UUSE_SOUND', '-DWINDOWS'], link_args: ['/SUBSYSTEM:WINDOWS', '/ENTRY:WinMainCRTStartup'])
+executable('zangband', src_files, tolua_files, angband_res, c_args: ['-USET_UID','-UUSE_SOUND', '-DWINDOWS'], link_args: ['/SUBSYSTEM:WINDOWS', '/ENTRY:WinMainCRTStartup'])
