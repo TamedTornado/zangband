@@ -3,6 +3,8 @@
 #ifndef INCLUDED_H_SYSTEM_H
 #define INCLUDED_H_SYSTEM_H
 
+#undef SET_UID
+
 /*
  * Include the basic "system" files.
  *

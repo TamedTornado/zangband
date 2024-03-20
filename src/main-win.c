@@ -251,6 +251,7 @@
  */
 #include <windows.h>
 
+#undef USE_SOUND
 #ifdef USE_SOUND
 
 /*
@@ -4765,7 +4766,7 @@ bool broken_ascii(void)
 
 
 
-int FAR PASCAL WinMain(HINSTANCE hInst, HINSTANCE hPrevInst,
+int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrevInst,
                        LPSTR lpCmdLine, int nCmdShow)
 {
 	int i;
