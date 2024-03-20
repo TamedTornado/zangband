@@ -3621,7 +3621,8 @@ static void process_menus(WORD wCmd)
 					if (td->visible)
 					{
 						/* Turn the Windows back to normal */
-						SetWindowLong(td->w, GWL_STYLE, td->dwStyle);
+						SetWindowLongPtr(hWnd, GWLP_USERDATA, (LONG_PTR)my_td);
+						// SetWindowLong(td->w, GWL_STYLE, td->dwStyle);
 
 						/* Push the window to the top */
 						SetWindowPos(td->w, HWND_NOTOPMOST, 0, 0, 0, 0,
@@ -3650,7 +3651,8 @@ static void process_menus(WORD wCmd)
 						if (td->visible)
 						{
 							/* Switch off border and titlebar */
-							SetWindowLong(td->w, GWL_STYLE, WS_VISIBLE);
+							SetWindowLongPtr(hWnd, GWLP_USERDATA, (LONG_PTR)my_td);
+							//SetWindowLong(td->w, GWL_STYLE, WS_VISIBLE);
 
 							/* Switch off menu */
 							SetMenu(td->w, NULL);
@@ -3715,7 +3717,8 @@ static void handle_wm_paint(HWND hWnd)
 	term_data *td;
 
 	/* Acquire proper "term_data" info */
-	td = (term_data *)GetWindowLong(hWnd, 0);
+	td = (term_data *)GetWindowLongPtr(hWnd, GWLP_USERDATA);
+	// td = (term_data *)GetWindowLong(hWnd, 0);
 
 	BeginPaint(hWnd, &ps);
 
@@ -3749,7 +3752,8 @@ static LRESULT FAR PASCAL AngbandWndProc(HWND hWnd, UINT uMsg,
 #endif /* USE_SAVER */
 
 	/* Acquire proper "term_data" info */
-	td = (term_data *)GetWindowLong(hWnd, 0);
+	td = (term_data *)GetWindowLongPtr(hWnd, GWLP_USERDATA);
+//	td = (term_data *)GetWindowLong(hWnd, 0);
 
 	/* Handle message */
 	switch (uMsg)
@@ -3757,7 +3761,8 @@ static LRESULT FAR PASCAL AngbandWndProc(HWND hWnd, UINT uMsg,
 		/* XXX XXX XXX */
 		case WM_NCCREATE:
 		{
-			SetWindowLong(hWnd, 0, (LONG)(my_td));
+			SetWindowLongPtr(hWnd, GWLP_USERDATA, (LONG_PTR)my_td);
+			//SetWindowLong(hWnd, 0, (LONG)(my_td));
 			break;
 		}
 
@@ -4073,7 +4078,8 @@ static LRESULT FAR PASCAL AngbandListProc(HWND hWnd, UINT uMsg,
 
 
 	/* Acquire proper "term_data" info */
-	td = (term_data *)GetWindowLong(hWnd, 0);
+	td = (term_data *)GetWindowLongPtr(hWnd, GWLP_USERDATA);
+	//td = (term_data *)GetWindowLong(hWnd, 0);
 
 	/* Process message */
 	switch (uMsg)
@@ -4081,7 +4087,8 @@ static LRESULT FAR PASCAL AngbandListProc(HWND hWnd, UINT uMsg,
 		/* XXX XXX XXX */
 		case WM_NCCREATE:
 		{
-			SetWindowLong(hWnd, 0, (LONG)(my_td));
+			SetWindowLongPtr(hWnd, GWLP_USERDATA, (LONG_PTR)my_td);
+			//SetWindowLong(hWnd, 0, (LONG)(my_td));
 			break;
 		}
 
