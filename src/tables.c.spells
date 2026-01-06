@@ -1,0 +1,293 @@
+{
+	/*** Life Spells ***/
+	{
+		/* Common Life Spellbooks */
+		"Detect Evil",
+		"Cure Light Wounds",
+		"Bless",
+		"Remove Fear",
+		"Call Light",
+		"Detect Traps and Secret Doors",
+		"Cure Medium Wounds",
+		"Satisfy Hunger",
+
+		"Remove Curse",
+		"Cure Poison",
+		"Cure Critical Wounds",
+		"Sense Unseen",
+		"Holy Orb",
+		"Protection from Evil",
+		"Healing",
+		"Glyph of Warding",
+
+		/* Rare Life Spellbooks */
+		"Exorcism",
+		"Dispel Curse",
+		"Dispel Undead & Demons",
+		"Day of the Dove",
+		"Dispel Evil",
+		"Banish",
+		"Holy Word",
+		"Warding True",
+
+		"Heroism",
+		"Prayer",
+		"Bless Weapon",
+		"Restoration",
+		"Healing True",
+		"Holy Vision",
+		"Divine Intervention",
+		"Holy Invulnerability"
+	},
+
+	/*** Sorcery Spells ***/
+
+	{
+		/* Common Sorcery Spellbooks */
+		"Detect Monsters",
+		"Phase Door",
+		"Detect Doors and Traps",
+		"Light Area",
+		"Confuse Monster",
+		"Teleport",
+		"Sleep Monster",
+		"Recharging",
+
+		"Magic Mapping",
+		"Identify",
+		"Slow Monster",
+		"Mass Sleep",
+		"Teleport Away",
+		"Haste Self",
+		"Detection True",
+		"Identify True",
+
+		/* Rare Sorcery Spellbooks */
+		"Detect Objects and Treasure",
+		"Detect Enchantment",
+		"Charm Monster",
+		"Dimension Door",
+		"Sense Minds",
+		"Self Knowledge",
+		"Teleport Level",
+		"Word of Recall",
+
+		"Stasis",
+		"Telekinesis",
+		"Explosive Rune",
+		"Clairvoyance",
+		"Enchant Weapon",
+		"Enchant Armour",
+		"Alchemy",
+		"Globe of Invulnerability"
+	},
+
+	/*** Nature Spellbooks ***/
+
+	{
+		/* Common Nature Spellbooks */
+		"Detect Creatures",
+		"First Aid",
+		"Detect Doors and Traps",
+		"Foraging",
+		"Daylight",
+		"Animal Taming",
+		"Resist Environment",
+		"Cure Wounds & Poison",
+
+		"Stone to Mud",
+		"Lightning Bolt",
+		"Nature Awareness",
+		"Frost Bolt",
+		"Ray of Sunlight",
+		"Entangle",
+		"Summon Animal",
+		"Herbal Healing",
+
+		/* Rare Nature Spellbooks */
+		"Door Building",
+		"Stair Building",
+		"Stone Skin",
+		"Resistance True",
+		"Animal Friendship",
+		"Stone Tell",
+		"Wall of Stone",
+		"Protect from Corrosion",
+
+		"Earthquake",
+		"Whirlwind Attack",
+		"Blizzard",
+		"Lightning Storm",
+		"Whirlpool",
+		"Call Sunlight",
+		"Elemental Branding",
+		"Nature's Wrath"
+	},
+
+	/*** Chaos Spells ***/
+
+	{
+		/* Common Chaos Spellbooks */
+		"Magic Missile",
+		"Trap / Door Destruction",
+		"Flash of Light",
+		"Touch of Confusion",
+		"Mana Burst",
+		"Fire Bolt",
+		"Fist of Force",
+		"Teleport Self",
+
+		"Wonder",
+		"Chaos Bolt",
+		"Sonic Boom",
+		"Doom Bolt",
+		"Fire Ball",
+		"Teleport Other",
+		"Word of Destruction",
+		"Invoke Logrus",
+
+		/* Rare Chaos Spellbooks */
+		"Polymorph Other",
+		"Chain Lightning",
+		"Arcane Binding",
+		"Disintegrate",
+		"Alter Reality",
+		"Polymorph Self",
+		"Chaos Branding",
+		"Summon Demon",
+
+		"Beam of Gravity",
+		"Meteor Swarm",
+		"Flame Strike",
+		"Call Chaos",
+		"Magic Rocket",
+		"Mana Storm",
+		"Breathe Logrus",
+		"Call the Void"
+	},
+
+	/*** Death Spells ***/
+
+	{
+		/* Common Death Spellbooks */
+		"Detect Unlife",
+		"Malediction",
+		"Detect Evil",
+		"Stinking Cloud",
+		"Black Sleep",
+		"Resist Poison",
+		"Horrify",
+		"Enslave Undead",
+
+		"Orb of Entropy",
+		"Nether Bolt",
+		"Terror",
+		"Vampiric Drain",
+		"Poison Branding",
+		"Dispel Good",
+		"Genocide",
+		"Restore Life",
+
+		/* Rare Death Spellbooks */
+		"Berserk",
+		"Invoke Spirits",
+		"Dark Bolt",
+		"Battle Frenzy",
+		"Vampirism True",
+		"Vampiric Branding",
+		"Darkness Storm",
+		"Mass Genocide",
+
+		"Death Ray",
+		"Raise the Dead",
+		"Esoteria",
+		"Word of Death",
+		"Evocation",
+		"Hellfire",
+		"Omnicide",
+		"Wraithform"
+	},
+
+	/* Trump Spellbooks */
+
+	{
+		/* Common Trump Spellbooks */
+		"Phase Door",
+		"Mind Blast",
+		"Shuffle",
+		"Reset Recall",
+		"Teleport",
+		"Dimension Door",
+		"Trump Spying",
+		"Teleport Away",
+
+		"Trump Reach",
+		"Trump Animal",
+		"Phantasmal Servant",
+		"Trump Monster",
+		"Conjure Elemental",
+		"Teleport Level",
+		"Word of Recall",
+		"Banish",
+
+		/* Rare Trump Spellbooks */
+		"Joker Card",
+		"Trump Spiders",
+		"Trump Reptiles",
+		"Trump Hounds",
+		"Trump Branding",
+		"Living Trump",
+		"Death Dealing",
+		"Trump Cyberdemon",
+
+
+		"Trump Divination",
+		"Trump Lore",
+		"Trump Undead",
+		"Trump Dragon",
+		"Mass Trump",
+		"Trump Demon",
+		"Trump Ancient Dragon",
+		"Trump Greater Undead"
+	},
+
+	/* Arcane Spellbooks (_only_ common spells) */
+
+	{
+		"Zap",
+		"Wizard Lock",
+		"Detect Invisibility",
+		"Detect Monsters",
+		"Blink",
+		"Light Area",
+		"Trap & Door Destruction",
+		"Cure Light Wounds",
+
+		"Detect Doors & Traps",
+		"Phlogiston",
+		"Detect Treasure",
+		"Detect Enchantment",
+		"Detect Objects",
+		"Cure Poison",
+		"Resist Cold",
+		"Resist Fire",
+
+		"Resist Lightning",
+		"Resist Acid",
+		"Cure Medium Wounds",
+		"Teleport",
+		"Stone to Mud",
+		"Ray of Light",
+		"Satisfy Hunger",
+		"See Invisible",
+
+		"Recharging",
+		"Teleport Level",
+		"Identify",
+		"Teleport Away",
+		"Elemental Ball",
+		"Detection",
+		"Word of Recall",
+		"Clairvoyance"
+	}
+}
